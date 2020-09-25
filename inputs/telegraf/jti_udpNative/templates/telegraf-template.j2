@@ -16,7 +16,6 @@
 
 [[processors.converter]]
   [processors.converter.fields]
-    integer = ["interface_stats.*","utilization.*"]
     tag = [
       {%-  for tag in tag_keys %}
       {%- if loop.last -%}
@@ -25,6 +24,9 @@
       "{{ tag }}",
       {%- endif -%}
       {%-  endfor %}]
+  
+    float = ["*"]
+
     
 [[outputs.influxdb]]
 

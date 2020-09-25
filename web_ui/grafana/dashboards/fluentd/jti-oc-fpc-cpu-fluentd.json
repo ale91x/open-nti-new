@@ -218,7 +218,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"juniper.oc./junos/system/linecard/cpu/memory/\" with KEY=\"device\"",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -260,7 +260,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"juniper.oc./junos/system/linecard/cpu/memory/\" with KEY=\"/components/component/@name\" WHERE device =~ /^$device/",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -1207,7 +1207,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"juniper.oc./junos/system/linecard/cpu/memory/\" with KEY=\"/components/component/propertiesproperty/@name\" WHERE device =~ /^$device/",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,

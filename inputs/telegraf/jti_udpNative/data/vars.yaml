@@ -1,9 +1,15 @@
 tag_keys:
   # Generic
   - "device"
+  - "sensor_name"
   # FPC CPU
   - "utilization.application_utilization.name"
   - "utilization.name"
   # INTERFACES
   - "interface_stats.if_name"
+  - "interface_info.if_name"
+  - "interface_info.snmp_if_index"
   - "interface_stats.parent_ae_name"
+  - "interface_info.init_time"
+
+

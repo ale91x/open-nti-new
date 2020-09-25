@@ -517,7 +517,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"juniperNetworks.jnpr_interface_ext\" WITH KEY = \"device\"",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -734,7 +734,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"juniperNetworks.jnpr_interface_ext\" with KEY=\"interface_stats.if_name\" WHERE device =~ /^$device/",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -791,7 +791,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"juniperNetworks.jnpr_interface_ext\" with KEY=\"interface_stats.parent_ae_name\" WHERE device =~ /^$device/",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -823,7 +823,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"juniperNetworks.jnpr_interface_ext\" with KEY=\"interface_stats.egress_queue_info.queue_number\" WHERE device =~ /^$device/",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,

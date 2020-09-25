@@ -590,7 +590,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"/interfaces/\" with KEY=\"device\"",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -862,7 +862,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"/interfaces/\" with KEY=\"/interfaces/interface/@name\" WHERE device =~ /^$device/",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "/.*[g|x]e-/",
         "skipUrlSync": false,
         "sort": 0,
@@ -919,7 +919,7 @@
           }
         ],
         "query": "SHOW TAG VALUES FROM \"/interfaces/\" with KEY=\"/interfaces/interface/state/parent_ae_name\" WHERE device =~ /^$device/",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,

@@ -1,4 +1,4 @@
-FROM grafana/grafana:5.3.2
+FROM grafana/grafana:7.2.0
 
 
 COPY ./config/dashboards.yaml /etc/grafana/provisioning/dashboards

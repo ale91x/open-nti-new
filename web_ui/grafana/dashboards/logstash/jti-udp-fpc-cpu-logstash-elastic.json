@@ -615,7 +615,7 @@
           }
         ],
         "query": "{\"find\": \"terms\", \"field\": \"device.keyword\"}",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -652,7 +652,7 @@
           }
         ],
         "query": "{\"find\": \"terms\", \"field\": \"utilization.name.keyword\",\"query\": \"device.keyword:$device\"}",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
@@ -910,7 +910,7 @@
           }
         ],
         "query": "{\"find\": \"terms\", \"field\": \"utilization.application_utilization.name.keyword\",\"query\": \"device.keyword:$device\"}",
-        "refresh": 0,
+        "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
         "sort": 0,
